@@ -1,0 +1,213 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FinalApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+    </style>
+
+    //LOGIN
+    <style name="Theme.Login" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //SIGNUP
+    <style name="Theme.SignUp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //INICIO
+    <style name="Theme.Inicio" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //HOME
+    <style name="Theme.Home" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //SEARCH
+    <style name="Theme.Search" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //PROFILE
+    <style name="Theme.Profile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //PROJECT
+    <style name="Theme.Project" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //UPLOAD
+    <style name="Theme.Upload" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //UPLOAD
+    <style name="Theme.EditarPerfil" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //DELETE PROJECT
+    <style name="Theme.DeleteProject" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary2</item>
+        <item name="colorPrimaryVariant">@color/primaryDark2</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary2</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark2</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDark2</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/primary2</item>
+
+    </style>
+
+    //LECTOR
+    <style name="Theme.Lector" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    //TEXTVIEW
+    <style name="Theme.textView" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">@color/secondary2</item>
+    </style>
+
+    //BTN
+    <style name="flatBtn" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/secondary2</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+    
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_animation</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_animation</item>
+    </style>
+
+
+</resources>

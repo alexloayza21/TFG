@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bkg">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remov"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="150dp"
+            app:tint="@color/primaryDark2" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageCancel"
+            android:src="@drawable/baseline_clear_24"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="100dp"
+            app:tint="@color/primaryDark2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearSettings"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/setting"
+            app:tint="@color/primaryDark2"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configuración y privacidad"
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="@color/primaryDark2"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearFavorites"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_star_outline_24"
+            app:tint="@color/primaryDark2"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favoritos"
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="@color/primaryDark2"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearDeleteProject"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_delete_forever_24"
+            app:tint="@color/primaryDark2"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar Proyecto"
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="@color/primaryDark2"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLogOut"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_logout_24"
+            app:tint="@color/primaryDark2"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión"
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="@color/primaryDark2"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
